@@ -18,7 +18,7 @@
 
 ### After setting up IDE & Java on your machine 
 
-- Download and unzip it
+- Download and unzip it from https://github.com/testframeworks/swym
 - Open IDE
 - Import projects pop up will open, select maven
 - Browse the project from your local machine.
