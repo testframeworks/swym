@@ -4,7 +4,7 @@
 ### Key Feature
 1. Java 8
 2. Maven
-3. :fire: [Selnium 4.0 Webdriver]
+3. [Selnium 4.0 Webdriver]
 4. Cross Browser Testing - Chrome & FF
 5. [WebDriverManager]
 
