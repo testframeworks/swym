@@ -13,22 +13,21 @@
 - Install Any [IDE]
 - Install [java]
 - Install [jdk & jre]
-- As it is a Maven project, no other dependencies need to download. All the dependencies that required for project is already added
+- As it is a Maven project, no other dependencies are needed for download. All the dependencies that required for project are already added
 
 
 ### After setting up IDE & Java on your machine 
 
 - Download and unzip it from https://github.com/testframeworks/swym
 - Open IDE
-- Import projects pop up will open, select maven
-- Browse the project from your local machine.
+- Import projects, select maven type
+- Browse the project from your local machine
 
 
-### Run Project and Get a Report & logs
+### Run Project and Get Reports
 
 - Run TestNg.xml file
-- wait till project run completly. Once it finished.
-- Goto reports and view the  latestreport as per timestamp `report_13-09` being the latest, for updates
+- Goto reports and view the latestreport as per timestamp `report_13-09` being the latest, for updates
 
 ### Running test suites from the command line
 
