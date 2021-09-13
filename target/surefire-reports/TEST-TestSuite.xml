@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.981" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/shreyansh_casa/.cache/selenium/chromedriver/mac64/93.0.4577.63/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shreyansh_casa/workspace/swym/target/test-classes:/Users/shreyansh_casa/workspace/swym/target/classes:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.0/selenium-java-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.0/selenium-api-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.0/selenium-edge-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.0/selenium-ie-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.0/selenium-opera-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.0/selenium-remote-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.0/selenium-safari-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.0/selenium-support-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shreyansh_casa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shreyansh_casa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shreyansh_casa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shreyansh_casa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shreyansh_casa/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shreyansh_casa/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.0/selenium-chrome-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.0/selenium-firefox-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/shreyansh_casa/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shreyansh_casa/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/shreyansh_casa/.m2/repository/jexcelapi/jxl/2.4.2/jxl-2.4.2.jar:/Users/shreyansh_casa/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/shreyansh_casa/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shreyansh_casa/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/shreyansh_casa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/shreyansh_casa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/shreyansh_casa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/shreyansh_casa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/shreyansh_casa/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/shreyansh_casa/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/shreyansh_casa/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shreyansh_casa/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shreyansh_casa/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shreyansh_casa/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/shreyansh_casa/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.10-FINAL/poi-ooxml-schemas-3.10-FINAL.jar:/Users/shreyansh_casa/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/shreyansh_casa/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/shreyansh_casa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shreyansh_casa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/shreyansh_casa/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/shreyansh_casa/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shreyansh_casa/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/shreyansh_casa/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/shreyansh_casa/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/shreyansh_casa/workspace/swym/target/surefire/surefirebooter6573591346352435471.jar /Users/shreyansh_casa/workspace/swym/target/surefire 2021-09-13T13-20-49_561-jvmRun1 surefire8880211189263576888tmp surefire_013502589280662318186tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/shreyansh_casa/workspace/swym/target/test-classes:/Users/shreyansh_casa/workspace/swym/target/classes:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.0/selenium-java-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.0/selenium-api-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.0/selenium-edge-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.0/selenium-ie-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.0/selenium-opera-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.0/selenium-remote-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.0/selenium-safari-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.0/selenium-support-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shreyansh_casa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shreyansh_casa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shreyansh_casa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shreyansh_casa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shreyansh_casa/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shreyansh_casa/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.0/selenium-chrome-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.0/selenium-firefox-driver-3.141.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/shreyansh_casa/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/shreyansh_casa/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/shreyansh_casa/.m2/repository/jexcelapi/jxl/2.4.2/jxl-2.4.2.jar:/Users/shreyansh_casa/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/shreyansh_casa/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/shreyansh_casa/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/shreyansh_casa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/shreyansh_casa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shreyansh_casa/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/shreyansh_casa/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/shreyansh_casa/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/shreyansh_casa/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/shreyansh_casa/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/shreyansh_casa/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/shreyansh_casa/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/shreyansh_casa/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/shreyansh_casa/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/shreyansh_casa/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL.jar:/Users/shreyansh_casa/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.10-FINAL/poi-ooxml-schemas-3.10-FINAL.jar:/Users/shreyansh_casa/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/shreyansh_casa/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/shreyansh_casa/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shreyansh_casa/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/shreyansh_casa/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/shreyansh_casa/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/shreyansh_casa/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/shreyansh_casa/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/shreyansh_casa/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/shreyansh_casa/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/shreyansh_casa/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/shreyansh_casa/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shreyansh_casa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/shreyansh_casa/workspace/swym"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/shreyansh_casa/workspace/swym/target/surefire/surefirebooter6573591346352435471.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="shreyansh_casa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/shreyansh_casa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gt/r3dc460n7bx9t5fqr5s1741h0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/shreyansh_casa/workspace/swym"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/shreyansh_casa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="tc01VerifyOpenURL" classname="com.swym.AddtoWishlist" time="6.205">
+    <system-out><![CDATA[...
+... TestNG 7.3.0 by CÃ©dric Beust (cedric@beust.com)
+...
+
+[DEBUG] 2021-09-13 13:20:51.197 [main] ResolutionCache - Resolution chrome=93 in cache (valid until 13:30:45 13/09/2021 IST)
+[DEBUG] 2021-09-13 13:20:51.201 [main] ResolutionCache - Resolution chrome93=93.0.4577.63 in cache (valid until 11:27:55 14/09/2021 IST)
+[INFO ] 2021-09-13 13:20:51.201 [main] WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+[DEBUG] 2021-09-13 13:20:51.210 [main] WebDriverManager - Driver chromedriver 93.0.4577.63 found in cache
+[INFO ] 2021-09-13 13:20:51.211 [main] WebDriverManager - Exporting webdriver.chrome.driver as /Users/shreyansh_casa/.cache/selenium/chromedriver/mac64/93.0.4577.63/chromedriver
+[INFO ] 2021-09-13 13:20:52.339 [main] AddtoWishlist - Verify URL
+[INFO ] 2021-09-13 13:20:58.538 [main] AddtoWishlist - Open URL
+[INFO ] 2021-09-13 13:20:58.543 [main] AddtoWishlist - Swym Marketing
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 46501
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 13, 2021 1:20:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc02VerifyAddtoWishlist" classname="com.swym.AddtoWishlist" time="7.708">
+    <system-out><![CDATA[[INFO ] 2021-09-13 13:20:58.547 [main] AddtoWishlist - Verify add to wishlist
+[INFO ] 2021-09-13 13:21:05.030 [main] AddtoWishlist - Open URL
+[INFO ] 2021-09-13 13:21:05.107 [main] AddtoWishlist - Added to Wishlist Email
+]]></system-out>
+  </testcase>
+  <testcase name="tc03VerifyShareWishlist" classname="com.swym.AddtoWishlist" time="28.303">
+    <system-out><![CDATA[[INFO ] 2021-09-13 13:21:06.254 [main] AddtoWishlist - Verify Share wishlist
+[INFO ] 2021-09-13 13:21:11.851 [main] AddtoWishlist - Open URL
+[INFO ] 2021-09-13 13:21:13.329 [main] AddtoWishlist - Login on site
+[INFO ] 2021-09-13 13:21:13.436 [main] AddtoWishlist - Input Email
+[INFO ] 2021-09-13 13:21:13.494 [main] AddtoWishlist - Input Password
+[INFO ] 2021-09-13 13:21:13.597 [main] AddtoWishlist - Click Sigin
+[INFO ] 2021-09-13 13:21:20.030 [main] AddtoWishlist - Open Wishlist URL
+[INFO ] 2021-09-13 13:21:28.289 [main] AddtoWishlist - View WishList
+[INFO ] 2021-09-13 13:21:33.389 [main] AddtoWishlist - Click Multiple Options
+[INFO ] 2021-09-13 13:21:33.469 [main] AddtoWishlist - Click Share
+[INFO ] 2021-09-13 13:21:33.543 [main] AddtoWishlist - Input Shared Email
+[INFO ] 2021-09-13 13:21:33.631 [main] AddtoWishlist - Click Share Wishlist to Email
+[INFO ] 2021-09-13 13:21:34.555 [main] AddtoWishlist - Verify Success Message
+]]></system-out>
+  </testcase>
+</testsuite>
